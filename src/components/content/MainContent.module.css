@@ -1,0 +1,33 @@
+.main-content {
+  background-color: #fff;
+  width: 70%;
+  height: 130px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 9999;
+}
+.vertical-line {
+  background-color: #555;
+  width: 1px;
+  height: 50px;
+}
+@media (max-width: 770px) {
+  .main-content {
+    width: 80%;
+    height: 300px;
+    flex-direction: column;
+    transform: translate(-50%, -25%);
+    padding: 10px;
+  }
+  .vertical-line {
+    width: 0px;
+    height: 0px;
+  }
+}

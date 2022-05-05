@@ -1,0 +1,29 @@
+.input {
+  padding: 15px 20px;
+  border-radius: 15px 0px 0px 15px;
+  border-style: none;
+  font-weight: 600;
+  min-width: 350px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+.btn-submit {
+  border-style: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0px 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+@media (max-width: 770px) {
+  .input {
+    min-width: 325px;
+    padding: 20px 20px;
+    margin-top: 15px;
+  }
+  .btn-submit {
+    margin-top: 15px;
+  }
+}
